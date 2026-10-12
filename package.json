@@ -1,0 +1,21 @@
+{
+  "name": "healthcare-platform-root",
+  "version": "1.0.0",
+  "description": "Online Doctor Appointment & Digital Prescription Platform (HLD System Design)",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start": "node run-all.js"
+  },
+  "keywords": [
+    "healthcare",
+    "system-design",
+    "api-gateway",
+    "microservices",
+    "appointment-booking"
+  ],
+  "author": "Senior Full-Stack Architect",
+  "license": "ISC"
+}
